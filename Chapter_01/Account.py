@@ -1,5 +1,5 @@
 class Account():
-    def __init__(self, name, balance, password):
+    def __init__(self, name, balance, password): # constructor
         self.name = name
         self.balance = balance
         self.password = password
