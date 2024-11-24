@@ -4,11 +4,13 @@ class Account():
         self.balance = balance
         self.password = password
 
+    # function to remove redundancy
     def validate_password(self, password):
         if password != self.password:
             print('Sorry, incorrect password')
             return False
         return True
+
     def deposit(self, amountToDeposit, password):
         if not self.validate_password(password):
             return None
