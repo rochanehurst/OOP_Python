@@ -1,8 +1,10 @@
 class Account():
     def __init__(self, name, balance, password): # constructor
+
         self.name = name
         self.balance = balance
         self.password = password
+
 
     # function to remove redundancy
     def validate_password(self, password):
